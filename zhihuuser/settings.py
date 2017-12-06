@@ -74,7 +74,7 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'zhihuuser.pipelines.MongoPipeline': 300,
+    'zhihuuser.pipelines.MongoPipeline': 400,
     # 'scrapy_redis.pipelines.RedisPipeline': 301
 }
 
